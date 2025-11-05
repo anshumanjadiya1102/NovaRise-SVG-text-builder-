@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* NovaRise global styles */
+
 body {
   background: radial-gradient(circle at top, #111, #000);
   background-attachment: fixed;
   color: #fff;
   font-family: 'Inter', sans-serif;
   transition: background 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
 }
 
 .dark body {
@@ -28,4 +31,9 @@ button {
 
 button:hover {
   transform: scale(1.05);
+}
+
+input {
+  outline: none;
+  border: none;
 }
